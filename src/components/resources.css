@@ -1,0 +1,12 @@
+.knowledgebase-container {
+  padding: 2% 5%;
+}
+
+.accordion-button {
+  font-size: 1.2rem;
+}
+
+.accordion-body {
+  text-align: left;
+  font-size: 1.2rem;
+}

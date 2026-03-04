@@ -1,0 +1,17 @@
+body {
+  padding: 5%;
+  padding-top: 0%;
+  background-color: #282c34;
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  align-items: center !important;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+
+html {
+  overflow-x: hidden;
+}

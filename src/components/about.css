@@ -1,0 +1,77 @@
+.about {
+  text-align: left;
+  padding: 10%;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-x: 30%;
+  background-position-y: center;
+  padding: 10%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  background-attachment: scroll;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+.typingOnNormal {
+  padding-top: 300px;
+  background-image: url(../media/typing_on_normal.gif);
+}
+
+.ergo {
+  background-position-x: 60%;
+  background-image: url(../media/ergo.gif);
+}
+
+.typing {
+  background-position-x: 80%;
+  background-image: url(../media/typing_on_mini.gif);
+}
+
+.layout {
+  background-position-x: 20%;
+  background-image: url(../media/layout.gif);
+}
+
+.layers {
+  background-position-x: 50%;
+  background-image: url(../media/layers.gif);
+}
+
+.coffee {
+  background-position-x: 30%;
+  background-image: url(../media/coffee.gif);
+}
+
+.red {
+  color: #ff7777;
+}
+
+.green {
+  color: #99ff99;
+}
+
+.blue {
+  color: #88aaff;
+}
+
+.brown {
+  color: #cc8a44;
+}
+
+.configureButton {
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
