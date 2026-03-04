@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/davinci-web/static/css/main.c089d5df.css",
-    "main.js": "/davinci-web/static/js/main.faec9448.js",
+    "main.js": "/davinci-web/static/js/main.1d7da164.js",
     "static/media/typing_on_normal.gif": "/davinci-web/static/media/typing_on_normal.5648a22702b461cc98eb.gif",
     "static/media/ergo.gif": "/davinci-web/static/media/ergo.bf68ca24f0d184095781.gif",
     "static/media/coffee.gif": "/davinci-web/static/media/coffee.df1dfc2c05c8d5b7a44d.gif",
@@ -25,10 +25,10 @@
     "static/media/load_layout.png": "/davinci-web/static/media/load_layout.4bc9c32025451018e71e.png",
     "index.html": "/davinci-web/index.html",
     "main.c089d5df.css.map": "/davinci-web/static/css/main.c089d5df.css.map",
-    "main.faec9448.js.map": "/davinci-web/static/js/main.faec9448.js.map"
+    "main.1d7da164.js.map": "/davinci-web/static/js/main.1d7da164.js.map"
   },
   "entrypoints": [
     "static/css/main.c089d5df.css",
-    "static/js/main.faec9448.js"
+    "static/js/main.1d7da164.js"
   ]
 }
