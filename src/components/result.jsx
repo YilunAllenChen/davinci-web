@@ -13,6 +13,7 @@ import { captureMessage } from "@sentry/react";
 const selectCustomization = (state) => state.customization;
 
 export default function ResultCard() {
+  const s3Base = `${process.env.PUBLIC_URL}/s3`;
   let customizationState = useSelector(selectCustomization);
   let [paymentLinks, setPaymentlinks] = useState();
   let [subscriptiontLinks, setSubsciptionlinks] = useState();
@@ -21,7 +22,7 @@ export default function ResultCard() {
   useEffect(() => {
     const fetchPaymentLinks = () => {
       fetch(
-        "./s3/data/payment_links_PROD.json",
+        `${s3Base}/data/payment_links_PROD.json`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -43,7 +44,7 @@ export default function ResultCard() {
 
       // subscriptions
       fetch(
-        "./s3/data/subscription_links_PROD.json",
+        `${s3Base}/data/subscription_links_PROD.json`,
         {
           headers: {
             "Content-Type": "application/json",
@@ -66,7 +67,7 @@ export default function ResultCard() {
     if (!paymentLinks && !subscriptiontLinks) {
       fetchPaymentLinks();
     }
-  }, [paymentLinks, subscriptiontLinks]);
+  }, [paymentLinks, subscriptiontLinks, s3Base]);
 
   // determining the primary and secondary model
   let model = "standard";
@@ -193,7 +194,7 @@ export default function ResultCard() {
             <Col xs={11} className="keyboardPictureContainer">
               <img
                 className="keyboardPicture"
-                src={`./s3/keyboards/v1_${model}_${color}_${layout}.png`}
+                src={`${s3Base}/keyboards/v1_${model}_${color}_${layout}.png`}
                 alt="keyboard"
               />
             </Col>
@@ -251,7 +252,7 @@ export default function ResultCard() {
             <Col xs={11} className="keyboardPictureContainer">
               <img
                 className="keyboardPicture"
-                src={`./s3/keyboards/v1_${secondModel}_${color}_${layout}.png`}
+                src={`${s3Base}/keyboards/v1_${secondModel}_${color}_${layout}.png`}
                 alt="keyboard"
               />
             </Col>
