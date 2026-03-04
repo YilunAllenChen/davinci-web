@@ -156,8 +156,9 @@ export default function ResultCard() {
       break;
   }
 
-  let paymentLinkQuery = `${model}:${color}:${layout}:${switchType}`;
-  let secondaryPaymentLinkQuery = `${secondModel}:${color}:${layout}:${switchType}`;
+  let paymentLinkQuery = `${model}:${color}:${layout}:${switchType}`.toLowerCase();
+  let secondaryPaymentLinkQuery =
+    `${secondModel}:${color}:${layout}:${switchType}`.toLowerCase();
   let targetPay, secondaryTargetPay, disabled;
   let targetSub, secondaryTargetSub;
   if (paymentLinks && paymentLinks[paymentLinkQuery]) {
