@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/davinci-web/static/css/main.c089d5df.css",
+    "main.js": "/davinci-web/static/js/main.1d7da164.js",
+    "static/media/typing_on_normal.gif": "/davinci-web/static/media/typing_on_normal.5648a22702b461cc98eb.gif",
+    "static/media/ergo.gif": "/davinci-web/static/media/ergo.bf68ca24f0d184095781.gif",
+    "static/media/coffee.gif": "/davinci-web/static/media/coffee.df1dfc2c05c8d5b7a44d.gif",
+    "static/media/layers.gif": "/davinci-web/static/media/layers.467b5c9d5c95142d3820.gif",
+    "static/media/typing_on_mini.gif": "/davinci-web/static/media/typing_on_mini.21a0510e7cfd29941ee1.gif",
+    "static/media/GIF_MXRGB_Brown.gif": "/davinci-web/static/media/GIF_MXRGB_Brown.02fd4059d7706727a185.gif",
+    "static/media/GIF_MXRGB_Blue.gif": "/davinci-web/static/media/GIF_MXRGB_Blue.a02579ff077233f6cf75.gif",
+    "static/media/GIF_MXRGB_Red.gif": "/davinci-web/static/media/GIF_MXRGB_Red.5e89b557e9e928c31ed6.gif",
+    "static/media/layout.gif": "/davinci-web/static/media/layout.5c9636b43346e7502894.gif",
+    "static/media/typing.gif": "/davinci-web/static/media/typing.985f7b8bcba24e90e94a.gif",
+    "static/media/mini.png": "/davinci-web/static/media/mini.54f9ad32c99f9e7f2718.png",
+    "static/media/standard.png": "/davinci-web/static/media/standard.2a3b20dcff9df3ae50a9.png",
+    "static/media/green.jpg": "/davinci-web/static/media/green.0e1858dd0248d68bdca2.jpg",
+    "static/media/keyboard.png": "/davinci-web/static/media/keyboard.aada16f765ba4689106e.png",
+    "static/media/layer0.png": "/davinci-web/static/media/layer0.be65fd93888bef4a265f.png",
+    "static/media/authorize.png": "/davinci-web/static/media/authorize.3a9f3759038dfc0ac63a.png",
+    "static/media/layer1.png": "/davinci-web/static/media/layer1.c9d0ad29d1bfcf61b5f6.png",
+    "static/media/configure.png": "/davinci-web/static/media/configure.9d61a7b1e6e05ec4d60a.png",
+    "static/media/layer2.png": "/davinci-web/static/media/layer2.2c4b99e83f97dc81f3a0.png",
+    "static/media/logo.png": "/davinci-web/static/media/logo.29852b3b6ef7191a00e6.png",
+    "static/media/load_layout.png": "/davinci-web/static/media/load_layout.4bc9c32025451018e71e.png",
+    "index.html": "/davinci-web/index.html",
+    "main.c089d5df.css.map": "/davinci-web/static/css/main.c089d5df.css.map",
+    "main.1d7da164.js.map": "/davinci-web/static/js/main.1d7da164.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c089d5df.css",
+    "static/js/main.1d7da164.js"
+  ]
+}
