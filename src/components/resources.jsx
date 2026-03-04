@@ -105,13 +105,13 @@ export default function KnowledgeBase() {
         </div>
         <p>1.  Right click on either of the following links, and click "Save Link As" to save the layout file onto your computer.</p>
         <a
-          href="https://davinci-ergo-lab.s3.amazonaws.com/data/v1_standard_via_layout.json"
+          href="./s3/data/v1_standard_via_layout.json"
           rel="noreferrer"
           target="_blank"
         >DaVinci v1 Standard</a>
         <br/>
         <a
-          href="https://davinci-ergo-lab.s3.amazonaws.com/data/v1_mini_via_layout.json"
+          href="./s3/data/v1_mini_via_layout.json"
           rel="noreferrer"
           target="_blank"
         >DaVinci v1 mini</a>

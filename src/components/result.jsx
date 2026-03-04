@@ -21,7 +21,7 @@ export default function ResultCard() {
   useEffect(() => {
     const fetchPaymentLinks = () => {
       fetch(
-        "https://davinci-ergo-lab.s3.amazonaws.com/data/payment_links_PROD.json",
+        "./s3/data/payment_links_PROD.json",
         {
           headers: {
             "Content-Type": "application/json",
@@ -43,7 +43,7 @@ export default function ResultCard() {
 
       // subscriptions
       fetch(
-        "https://davinci-ergo-lab.s3.amazonaws.com/data/subscription_links_PROD.json",
+        "./s3/data/subscription_links_PROD.json",
         {
           headers: {
             "Content-Type": "application/json",
@@ -193,7 +193,7 @@ export default function ResultCard() {
             <Col xs={11} className="keyboardPictureContainer">
               <img
                 className="keyboardPicture"
-                src={`https://davinci-ergo-lab.s3.amazonaws.com/keyboards/v1_${model}_${color}_${layout}.png`}
+                src={`./s3/keyboards/v1_${model}_${color}_${layout}.png`}
                 alt="keyboard"
               />
             </Col>
@@ -251,7 +251,7 @@ export default function ResultCard() {
             <Col xs={11} className="keyboardPictureContainer">
               <img
                 className="keyboardPicture"
-                src={`https://davinci-ergo-lab.s3.amazonaws.com/keyboards/v1_${secondModel}_${color}_${layout}.png`}
+                src={`./s3/keyboards/v1_${secondModel}_${color}_${layout}.png`}
                 alt="keyboard"
               />
             </Col>
